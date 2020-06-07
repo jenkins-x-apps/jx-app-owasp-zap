@@ -1,0 +1,4 @@
+apiVersion: v1
+description: The OWASP ZAP App for Jenkins X
+name: jx-app-owasp-zap
+version: 0.1.0-SNAPSHOT

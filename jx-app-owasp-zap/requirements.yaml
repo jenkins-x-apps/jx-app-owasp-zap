@@ -1,0 +1,4 @@
+dependencies:
+- name: kube-owasp-zap 
+  repository: https://charts.simplyzee.dev
+  version: 0.1.0
