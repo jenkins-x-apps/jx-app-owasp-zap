@@ -3,8 +3,8 @@ CURRENT=$(pwd)
 NAME := jx-app-owasp-zap
 OS := $(shell uname)
 
-CHARTMUSEUM_CREDS_USR := $(shell cat /builder/home/basic-auth-user.json)
-CHARTMUSEUM_CREDS_PSW := $(shell cat /builder/home/basic-auth-pass.json)
+CHARTMUSEUM_CREDS_USR := $(shell cat /tekton/home/basic-auth-user.json)
+CHARTMUSEUM_CREDS_PSW := $(shell cat /tekton/home/basic-auth-pass.json)
 
 init:
 	helm init --client-only
